@@ -1,4 +1,4 @@
-# CoreBlueToothDataTransfer
+# CoreBlueTooth DataTransfer
 
 Simple application to demo how to use BTLE for data transfer in Objective C.
 
