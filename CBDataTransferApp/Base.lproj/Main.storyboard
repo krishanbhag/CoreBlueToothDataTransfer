@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dhs-8d-JnG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dhs-8d-JnG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="231" y="12"/>
-        </scene>
         <!--Devices Table View Controller-->
         <scene sceneID="Fc4-hl-llT">
             <objects>
@@ -35,10 +20,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="deviceCell" id="KAs-RN-hph">
-                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KAs-RN-hph" id="MXc-T8-aq1">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -70,6 +55,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFV-cq-Aj3">
+                                <rect key="frame" x="16" y="72" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="kia-b5-PD0"/>
                                     <constraint firstAttribute="width" constant="46" id="qqP-Vw-RTm"/>
@@ -80,6 +66,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XT3-dn-mGZ">
+                                <rect key="frame" x="313" y="72" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="YVH-d4-bP7"/>
                                     <constraint firstAttribute="width" constant="46" id="wNi-Zj-uCd"/>
@@ -90,6 +77,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TL-J2-Fra">
+                                <rect key="frame" x="164.5" y="72" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="r77-CQ-o2P"/>
                                     <constraint firstAttribute="height" constant="30" id="tGt-Nd-gEl"/>
@@ -100,6 +88,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pO1-4a-0Dr">
+                                <rect key="frame" x="16" y="280" width="170" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="EB5-3V-8Qj"/>
                                     <constraint firstAttribute="width" constant="170" id="sUJ-Je-SFN"/>
@@ -110,6 +99,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebG-xQ-Piq">
+                                <rect key="frame" x="16" y="318" width="126" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="126" id="1R0-Su-Oem"/>
                                     <constraint firstAttribute="height" constant="30" id="cQt-3w-DR2"/>
@@ -120,6 +110,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70S-jL-1GL">
+                                <rect key="frame" x="16" y="167" width="58" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="58" id="chs-T4-hDt"/>
                                     <constraint firstAttribute="height" constant="30" id="dcJ-ND-rxH"/>
@@ -130,6 +121,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dl4-q6-ZYa">
+                                <rect key="frame" x="16" y="205" width="86" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="86" id="GDI-Ho-VkX"/>
                                     <constraint firstAttribute="height" constant="30" id="wnb-xN-2ae"/>
@@ -140,12 +132,22 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clV-GK-ivA">
-                                <state key="normal" title="Beacon"/>
+                                <rect key="frame" x="16" y="445" width="115" height="30"/>
+                                <state key="normal" title="BeaconOn"/>
                                 <connections>
-                                    <action selector="beaconButtonAction:" destination="yss-b3-r8v" eventType="touchUpInside" id="Zpj-kG-ijb"/>
+                                    <action selector="beaconButtonAction:" destination="yss-b3-r8v" eventType="touchUpInside" id="L1l-BK-iNA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQt-5C-OHr">
+                                <rect key="frame" x="16" y="508" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Track my device"/>
+                                <connections>
+                                    <action selector="trackViaGpsAction:" destination="yss-b3-r8v" eventType="touchUpInside" id="cSr-Vy-64Y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8J-tX-XZm">
+                                <rect key="frame" x="16" y="376" width="91" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="IT9-b5-VOk"/>
                                     <constraint firstAttribute="width" constant="91" id="ZCu-H5-2sK"/>
@@ -155,10 +157,21 @@
                                     <action selector="checkWeightButtonAction:" destination="yss-b3-r8v" eventType="touchUpInside" id="x0H-Tv-KVs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvr-4b-tks">
+                                <rect key="frame" x="238" y="445" width="115" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bMd-Lm-Chs"/>
+                                    <constraint firstAttribute="width" constant="115" id="uYo-j1-Bir"/>
+                                </constraints>
+                                <state key="normal" title="BeaconOff"/>
+                                <connections>
+                                    <action selector="beaconOffButtonAction:" destination="yss-b3-r8v" eventType="touchUpInside" id="vZh-5I-nEk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="clV-GK-ivA" firstAttribute="width" secondItem="v8J-tX-XZm" secondAttribute="width" id="2cN-Lb-zxy"/>
+                            <constraint firstItem="clV-GK-ivA" firstAttribute="width" secondItem="v8J-tX-XZm" secondAttribute="width" constant="24" id="2cN-Lb-zxy"/>
                             <constraint firstItem="v8J-tX-XZm" firstAttribute="leading" secondItem="ebG-xQ-Piq" secondAttribute="leading" id="76y-1T-zPs"/>
                             <constraint firstItem="LFV-cq-Aj3" firstAttribute="top" secondItem="WXq-KU-8Zt" secondAttribute="bottom" constant="8" id="9A2-I6-ysj"/>
                             <constraint firstItem="pO1-4a-0Dr" firstAttribute="leading" secondItem="Dl4-q6-ZYa" secondAttribute="leading" id="DT5-Tx-fZV"/>
@@ -166,6 +179,7 @@
                             <constraint firstItem="Dl4-q6-ZYa" firstAttribute="top" secondItem="70S-jL-1GL" secondAttribute="bottom" constant="8" id="GVF-Zy-xI9"/>
                             <constraint firstItem="70S-jL-1GL" firstAttribute="leading" secondItem="LFV-cq-Aj3" secondAttribute="leading" id="HkE-np-Lrv"/>
                             <constraint firstItem="v8J-tX-XZm" firstAttribute="top" secondItem="ebG-xQ-Piq" secondAttribute="bottom" constant="28" id="IDT-mw-3kN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uvr-4b-tks" secondAttribute="trailing" constant="6" id="JJt-Lq-w3Q"/>
                             <constraint firstItem="clV-GK-ivA" firstAttribute="height" secondItem="v8J-tX-XZm" secondAttribute="height" id="MYx-TL-oXV"/>
                             <constraint firstItem="pO1-4a-0Dr" firstAttribute="top" secondItem="Dl4-q6-ZYa" secondAttribute="bottom" constant="45" id="Oi0-oI-t6n"/>
                             <constraint firstItem="ebG-xQ-Piq" firstAttribute="leading" secondItem="pO1-4a-0Dr" secondAttribute="leading" id="Q1V-eD-ksM"/>
@@ -173,6 +187,7 @@
                             <constraint firstItem="Dl4-q6-ZYa" firstAttribute="leading" secondItem="70S-jL-1GL" secondAttribute="leading" id="TPR-O1-9Rc"/>
                             <constraint firstItem="clV-GK-ivA" firstAttribute="leading" secondItem="v8J-tX-XZm" secondAttribute="leading" id="VpH-i7-cMF"/>
                             <constraint firstItem="70S-jL-1GL" firstAttribute="top" secondItem="LFV-cq-Aj3" secondAttribute="bottom" constant="65" id="gzc-a0-fGC"/>
+                            <constraint firstItem="uvr-4b-tks" firstAttribute="centerY" secondItem="clV-GK-ivA" secondAttribute="centerY" id="hNa-hN-5IF"/>
                             <constraint firstItem="4TL-J2-Fra" firstAttribute="centerY" secondItem="LFV-cq-Aj3" secondAttribute="centerY" id="iA7-DC-wBY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XT3-dn-mGZ" secondAttribute="trailing" id="jK7-vV-rs0"/>
                             <constraint firstItem="4TL-J2-Fra" firstAttribute="centerX" secondItem="Kh5-hh-9wn" secondAttribute="centerX" id="l0U-sf-D1q"/>
@@ -180,10 +195,13 @@
                             <constraint firstItem="ebG-xQ-Piq" firstAttribute="top" secondItem="pO1-4a-0Dr" secondAttribute="bottom" constant="8" id="z3K-BC-wfW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="Pw4-7e-jqu" kind="show" identifier="trackViaGps" id="ion-X4-1Sb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1NZ-Bg-F9p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="656"/>
+            <point key="canvasLocation" x="1917.5999999999999" y="655.32233883058473"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dgB-HW-GWl">
@@ -202,6 +220,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Fe-fy-vbT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="230" y="659"/>
+        </scene>
+        <!--Locate Device View Controller-->
+        <scene sceneID="tvi-if-MuD">
+            <objects>
+                <viewController storyboardIdentifier="locateDeviceViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pw4-7e-jqu" customClass="locateDeviceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C6S-cR-dW8"/>
+                        <viewControllerLayoutGuide type="bottom" id="NXd-0B-Mzq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oEs-Pm-lUp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="P8a-hK-F3m">
+                                <rect key="frame" x="16" y="136" width="343" height="338"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="338" id="rCs-zT-b5V"/>
+                                </constraints>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2d-s1-wr1">
+                                <rect key="frame" x="16" y="499" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5o5-AQ-ldk"/>
+                                    <constraint firstAttribute="width" constant="343" id="rTH-xc-wPp"/>
+                                </constraints>
+                                <state key="normal" title="Direction Please"/>
+                                <connections>
+                                    <action selector="openInMapsAction:" destination="Pw4-7e-jqu" eventType="touchUpInside" id="WYE-ck-bYH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K2d-s1-wr1" firstAttribute="top" secondItem="P8a-hK-F3m" secondAttribute="bottom" constant="25" id="1R5-fc-fMq"/>
+                            <constraint firstItem="K2d-s1-wr1" firstAttribute="centerX" secondItem="oEs-Pm-lUp" secondAttribute="centerX" id="4dt-KH-MxX"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="P8a-hK-F3m" secondAttribute="leading" id="BQ9-yp-QL4"/>
+                            <constraint firstItem="P8a-hK-F3m" firstAttribute="top" secondItem="C6S-cR-dW8" secondAttribute="bottom" constant="72" id="DMn-eV-ZgR"/>
+                            <constraint firstItem="P8a-hK-F3m" firstAttribute="centerX" secondItem="oEs-Pm-lUp" secondAttribute="centerX" id="KyH-kH-qmq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="P8a-hK-F3m" secondAttribute="trailing" id="ts9-OD-znD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapview" destination="P8a-hK-F3m" id="PK2-8g-tgl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wCu-sZ-j6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2678" y="659"/>
         </scene>
     </scenes>
 </document>

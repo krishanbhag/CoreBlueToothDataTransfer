@@ -123,8 +123,10 @@
     NSString *localName = [advertisementData objectForKey:CBAdvertisementDataLocalNameKey];
     if (![localName isEqual:@""]) {
         // We found the Heart Rate Monitor
+        if (self.deviceListArray == nil) {
+            self.deviceListArray = [NSMutableArray new];
+        }
         [self.deviceListArray addObject:peripheral];
-        
     }
     
     if (self.delegate && [self.delegate respondsToSelector:@selector(updateDataSource:)]) {
@@ -325,7 +327,7 @@
         [self.delegate performSelector:@selector(btdisconnectedPeripheral:error:) withObject:error];
     }
     //move to rootview controller
-    [self startScan];
+   // [self startScan];
 }
 
 

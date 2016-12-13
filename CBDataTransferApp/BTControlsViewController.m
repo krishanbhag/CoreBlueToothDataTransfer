@@ -18,6 +18,8 @@ typedef enum : NSUInteger {
     fpmatch,
     weight,
     beacon,
+    beaconOff,
+    
 } controlType;
 
 @interface BTControlsViewController ()
@@ -99,6 +101,15 @@ typedef enum : NSUInteger {
     self.ctrlType = beacon;
     [self makeRequest];
 }
+- (IBAction)beaconOffButtonAction:(id)sender {
+    
+    self.ctrlType = beaconOff;
+    [self makeRequest];
+}
+- (IBAction)trackViaGpsAction:(id)sender {
+    
+    [self performSegueWithIdentifier:@"trackViaGps" sender:self];
+}
 #pragma mark - Datasource and delegates
 
 - (void) btCentralManager:(CBCentralManager *)central didConnectPeripheral:(CBPeripheral *)peripheral {
@@ -126,6 +137,7 @@ typedef enum : NSUInteger {
             case fpmatch  : [handler writeValueForCharacteristicWithString:@"FPMATCH"]; break;
             case weight  : [handler writeValueForCharacteristicWithString:@"LOADWT"]; break;
             case beacon  : [handler writeValueForCharacteristicWithString:@"IBEACON"]; break;
+            case beaconOff : [handler writeValueForCharacteristicWithString:@"IBEACOFF"]; break;
                 
             default:
                 break;

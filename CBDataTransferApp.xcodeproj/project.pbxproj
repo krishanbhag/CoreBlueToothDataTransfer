@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B953C3FA1DE5C43E00F23809 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B953C3F91DE5C43E00F23809 /* MapKit.framework */; };
+		B953C3FF1DE5C4C700F23809 /* locateDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B953C3FE1DE5C4C700F23809 /* locateDeviceViewController.m */; };
+		B953C4031DE5CE2000F23809 /* EGSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B953C4021DE5CE2000F23809 /* EGSessionManager.m */; };
 		B9F4456C1DD1DC1500CD7B15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F4456B1DD1DC1500CD7B15 /* main.m */; };
 		B9F4456F1DD1DC1500CD7B15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F4456E1DD1DC1500CD7B15 /* AppDelegate.m */; };
 		B9F445751DD1DC1500CD7B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F445731DD1DC1500CD7B15 /* Main.storyboard */; };
@@ -15,9 +18,18 @@
 		B9F445881DD2EBFA00CD7B15 /* CommunicationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F445871DD2EBFA00CD7B15 /* CommunicationHandler.m */; };
 		B9F4458B1DD2EE7A00CD7B15 /* DevicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F4458A1DD2EE7A00CD7B15 /* DevicesTableViewController.m */; };
 		B9F4458E1DD30EC400CD7B15 /* BTControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F4458D1DD30EC400CD7B15 /* BTControlsViewController.m */; };
+		D78569A48E552360B7FFF198 /* libPods-CBDataTransferApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765FC65E2E8B9E889D3FD59 /* libPods-CBDataTransferApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0765FC65E2E8B9E889D3FD59 /* libPods-CBDataTransferApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBDataTransferApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC20E0A9986EC85B93C1E48 /* Pods-CBDataTransferApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBDataTransferApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBDataTransferApp/Pods-CBDataTransferApp.release.xcconfig"; sourceTree = "<group>"; };
+		B953C3F91DE5C43E00F23809 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B953C3FD1DE5C4C700F23809 /* locateDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locateDeviceViewController.h; sourceTree = "<group>"; };
+		B953C3FE1DE5C4C700F23809 /* locateDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = locateDeviceViewController.m; sourceTree = "<group>"; };
+		B953C4011DE5CE2000F23809 /* EGSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSessionManager.h; sourceTree = "<group>"; };
+		B953C4021DE5CE2000F23809 /* EGSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSessionManager.m; sourceTree = "<group>"; };
+		B953C4041DE5CEE700F23809 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../../../../Users/krishnashanbhag/Library/Developer/Xcode/DerivedData/CBDataTransferApp-eyvbwdgruzyawueaubgvonfudkjv/Build/Products/Debug-iphonesimulator/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		B9F445671DD1DC1500CD7B15 /* CBDataTransferApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBDataTransferApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F4456B1DD1DC1500CD7B15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9F4456D1DD1DC1500CD7B15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,6 +44,7 @@
 		B9F4458A1DD2EE7A00CD7B15 /* DevicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicesTableViewController.m; sourceTree = "<group>"; };
 		B9F4458C1DD30EC400CD7B15 /* BTControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTControlsViewController.h; sourceTree = "<group>"; };
 		B9F4458D1DD30EC400CD7B15 /* BTControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTControlsViewController.m; sourceTree = "<group>"; };
+		CA8516A938CF22433B7407CB /* Pods-CBDataTransferApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBDataTransferApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBDataTransferApp/Pods-CBDataTransferApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +52,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B953C3FA1DE5C43E00F23809 /* MapKit.framework in Frameworks */,
+				D78569A48E552360B7FFF198 /* libPods-CBDataTransferApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1BBC38D999DC0E823168FDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA8516A938CF22433B7407CB /* Pods-CBDataTransferApp.debug.xcconfig */,
+				0BC20E0A9986EC85B93C1E48 /* Pods-CBDataTransferApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B953C3F81DE5C43E00F23809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B953C4041DE5CEE700F23809 /* libAFNetworking.a */,
+				B953C3F91DE5C43E00F23809 /* MapKit.framework */,
+				0765FC65E2E8B9E889D3FD59 /* libPods-CBDataTransferApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B953C3FB1DE5C4A000F23809 /* GPS */ = {
+			isa = PBXGroup;
+			children = (
+				B953C3FC1DE5C4A000F23809 /* MapViewController */,
+			);
+			path = GPS;
+			sourceTree = "<group>";
+		};
+		B953C3FC1DE5C4A000F23809 /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B953C3FD1DE5C4C700F23809 /* locateDeviceViewController.h */,
+				B953C3FE1DE5C4C700F23809 /* locateDeviceViewController.m */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		B953C4001DE5CE2000F23809 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				B953C4011DE5CE2000F23809 /* EGSessionManager.h */,
+				B953C4021DE5CE2000F23809 /* EGSessionManager.m */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
 		B9F4455E1DD1DC1500CD7B15 = {
 			isa = PBXGroup;
 			children = (
 				B9F445691DD1DC1500CD7B15 /* CBDataTransferApp */,
 				B9F445681DD1DC1500CD7B15 /* Products */,
+				B953C3F81DE5C43E00F23809 /* Frameworks */,
+				A1BBC38D999DC0E823168FDD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +126,8 @@
 		B9F445691DD1DC1500CD7B15 /* CBDataTransferApp */ = {
 			isa = PBXGroup;
 			children = (
+				B953C4001DE5CE2000F23809 /* RequestManager */,
+				B953C3FB1DE5C4A000F23809 /* GPS */,
 				B9F445811DD1DCB100CD7B15 /* DeviceListController */,
 				B9F4456D1DD1DC1500CD7B15 /* AppDelegate.h */,
 				B9F4456E1DD1DC1500CD7B15 /* AppDelegate.m */,
@@ -104,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9F4457E1DD1DC1500CD7B15 /* Build configuration list for PBXNativeTarget "CBDataTransferApp" */;
 			buildPhases = (
+				84FBAF327EDA595EB6D13575 /* [CP] Check Pods Manifest.lock */,
 				B9F445631DD1DC1500CD7B15 /* Sources */,
 				B9F445641DD1DC1500CD7B15 /* Frameworks */,
 				B9F445651DD1DC1500CD7B15 /* Resources */,
+				FB41B728F99579AD468F5C36 /* [CP] Embed Pods Frameworks */,
+				29FFDBFA80BDA0080C28A3B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +231,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29FFDBFA80BDA0080C28A3B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBDataTransferApp/Pods-CBDataTransferApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FBAF327EDA595EB6D13575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB41B728F99579AD468F5C36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBDataTransferApp/Pods-CBDataTransferApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9F445631DD1DC1500CD7B15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -173,7 +288,9 @@
 				B9F445881DD2EBFA00CD7B15 /* CommunicationHandler.m in Sources */,
 				B9F4456F1DD1DC1500CD7B15 /* AppDelegate.m in Sources */,
 				B9F4456C1DD1DC1500CD7B15 /* main.m in Sources */,
+				B953C3FF1DE5C4C700F23809 /* locateDeviceViewController.m in Sources */,
 				B9F4458B1DD2EE7A00CD7B15 /* DevicesTableViewController.m in Sources */,
+				B953C4031DE5CE2000F23809 /* EGSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +406,7 @@
 		};
 		B9F4457F1DD1DC1500CD7B15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8516A938CF22433B7407CB /* Pods-CBDataTransferApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -302,6 +420,7 @@
 		};
 		B9F445801DD1DC1500CD7B15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC20E0A9986EC85B93C1E48 /* Pods-CBDataTransferApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -332,6 +451,7 @@
 				B9F445801DD1DC1500CD7B15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

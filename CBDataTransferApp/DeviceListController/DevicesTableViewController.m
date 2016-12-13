@@ -16,12 +16,16 @@
 @end
 
 @implementation DevicesTableViewController
-- (void)viewWillAppear:(BOOL)animated {
+- (void)viewDidAppear:(BOOL)animated {
     
-    [super viewWillAppear:animated];
+    [super viewDidAppear:animated];
     self.devicesDataSource = [NSMutableArray new];
+    [self.tableView reloadData];
+    self.communicationHandler = nil;
+    
     self.communicationHandler = [CommunicationHandler sharedInstance];
     self.communicationHandler.delegate = self;
+     [self.communicationHandler startScan];
 
 }
 - (void)viewDidLoad {
